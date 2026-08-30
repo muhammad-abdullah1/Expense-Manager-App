@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="lightgrey">#D3D3D3</color>
+        <color name="grey">#808080</color>
+        <color name="colorPrimary">#3F51B5</color>
+    <color name="brand_primary">#5B3DF5</color>
+    <color name="brand_primary_dark">#4229D1</color>
+    <color name="brand_accent">#FF6B6B</color>
+    <color name="surface_light">#F5F4FF</color>
+    <color name="text_secondary">#6B6B76</color>
+    <color name="success_green">#1FA97E</color>
+
+</resources>
