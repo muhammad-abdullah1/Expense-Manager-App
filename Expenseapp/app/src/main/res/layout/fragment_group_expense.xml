@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/bg_dark">
+
+    <TextView
+        android:id="@+id/groupNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Group Expenses"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="14dp"
+        android:textColor="@color/white" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="14dp"
+        app:cardElevation="1dp"
+        app:cardBackgroundColor="@color/white"
+        android:layout_marginBottom="14dp">
+
+        <Spinner
+            android:id="@+id/groupSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="1dp"
+        android:layout_marginBottom="12dp"
+        app:cardBackgroundColor="@color/white">
+
+        <ListView
+            android:id="@+id/groupExpenseListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#F0EEFF"
+            android:dividerHeight="1dp"
+            android:padding="10dp"
+            android:background="@android:color/transparent"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="1dp"
+        android:layout_marginBottom="16dp"
+        app:cardBackgroundColor="@color/white">
+
+        <ListView
+            android:id="@+id/balanceListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="#F0EEFF"
+            android:dividerHeight="1dp"
+            android:padding="10dp"
+            android:background="@android:color/transparent"/>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/joinGroupFab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@color/white"
+            app:tint="@color/brand_primary"
+            app:elevation="3dp"
+            android:layout_marginEnd="14dp"
+            android:src="@drawable/ic_join"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/createGroupFab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@color/white"
+            app:tint="@color/brand_primary"
+            app:elevation="3dp"
+            android:layout_marginEnd="14dp"
+            android:src="@drawable/ic_creategroup"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/addGroupExpenseFab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@color/brand_primary"
+            app:tint="@color/white"
+            app:elevation="4dp"
+            android:src="@drawable/ic_groupexpense"/>
+    </LinearLayout>
+
+</LinearLayout>

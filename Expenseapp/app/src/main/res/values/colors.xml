@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="lightgrey">#D3D3D3</color>
+    <color name="grey">#808080</color>
+    <color name="colorPrimary">#6D28D9</color>
+
+    <!-- Bold & modern brand palette -->
+    <color name="brand_primary">#6D28D9</color>
+    <color name="brand_primary_dark">#4C1D95</color>
+    <color name="brand_primary_light">#8B5CF6</color>
+    <color name="brand_gradient_end">#A855F7</color>
+    <color name="brand_accent">#FF4D6D</color>
+
+    <!-- Deep dark surfaces for the bold theme -->
+    <color name="bg_dark">#120E24</color>
+    <color name="bg_dark_elevated">#1C1735</color>
+    <color name="surface_light">#F4F2FF</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="stroke_subtle">#2A2450</color>
+    <color name="stroke_subtle_light">#EDEBFF</color>
+
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary">#6B6B76</color>
+    <color name="text_secondary_on_dark">#ABA6D6</color>
+
+    <color name="success_green">#22C55E</color>
+    <color name="danger_red">#FF4D6D</color>
+
+    <!-- Category accent colors -->
+    <color name="cat_food">#FF9F43</color>
+    <color name="cat_transport">#4C6FFF</color>
+    <color name="cat_shopping">#FF5C93</color>
+    <color name="cat_bills">#22C55E</color>
+    <color name="cat_entertainment">#B15CFF</color>
+    <color name="cat_other">#9497A8</color>
+</resources>
