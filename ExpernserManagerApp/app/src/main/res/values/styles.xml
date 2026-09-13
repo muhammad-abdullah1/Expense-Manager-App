@@ -1,9 +1,0 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="Theme.ChequePoint" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <!-- Change status bar color -->
-        <item name="android:statusBarColor">@color/black</item>
-
-        <!-- Change status bar text/icons to light (set to 'true' for dark text) -->
-        <item name="android:windowLightStatusBar">false</item>
-    </style>
-</resources>
